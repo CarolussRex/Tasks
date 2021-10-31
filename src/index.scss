@@ -1,0 +1,77 @@
+$primary-color: white;
+
+body {
+  background-color: #000000eb;
+}
+
+button{
+  width: 14vh;
+  height: 4vh;
+  background-color: brown;
+  border-radius: 1px;
+  border: thin;
+  cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+button{
+  border-radius: 15px;
+  margin-left: 45px;
+  color: black;
+}
+
+.container{
+  width: 30vw;
+  height: 30vh;
+  background-color: $primary-color;
+}
+
+.contant{
+  color: $primary-color;
+    text-decoration: none;
+    list-style-type: none;
+    height: 6vh;
+    margin-top: 3vh;
+    display: flex;
+}
+
+input{
+  width: 30vw;
+  height: 5vh;
+  border-radius:35px;
+  text-align: center;
+  border-color: chartreuse;
+  border-top-color: chartreuse;
+}
+
+#add-input{
+  margin-top: 5vh;
+  border-color: black !important;
+  border-top-color: black !important;
+  width: 60vw;
+  height: 5vh;
+}
+
+input:disabled {
+  cursor: default;
+  background-color: $primary-color;
+  color: black;
+  border-color: black
+}
+
+#button-add{
+  background-color: greenyellow;
+}
+
+#button-edit{
+  background-color: yellow;
+}
+
+#button-delete{
+  background-color: firebrick;
+}
