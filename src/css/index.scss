@@ -31,13 +31,14 @@ button{
   background-color: $primary-color;
 }
 
-.contant{
+.content{
   color: $primary-color;
     text-decoration: none;
     list-style-type: none;
     height: 6vh;
     margin-top: 3vh;
     display: flex;
+    align-items: center;
 }
 
 input{
